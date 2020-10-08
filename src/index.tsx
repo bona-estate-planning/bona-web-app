@@ -18,7 +18,8 @@ import 'sanitize.css/sanitize.css';
 import { App } from 'app';
 
 import { HelmetProvider } from 'react-helmet-async';
-
+import { ThemeProvider } from '@material-ui/core/styles';
+import { theme } from 'styles/theme';
 import { configureAppStore } from 'store/configureStore';
 
 // Initialize languages
@@ -33,9 +34,11 @@ interface Props {
 const ConnectedApp = ({ Component }: Props) => (
   <Provider store={store}>
     <HelmetProvider>
-      <React.StrictMode>
-        <Component />
-      </React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <React.StrictMode>
+          <Component />
+        </React.StrictMode>
+      </ThemeProvider>
     </HelmetProvider>
   </Provider>
 );
