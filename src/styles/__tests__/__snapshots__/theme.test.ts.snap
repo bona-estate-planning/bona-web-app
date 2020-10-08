@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`/home/tatemz/Development/git/bona-estate-planning/bona-web-app/src/styles/__tests__/theme.test.ts theme settings should match snapshot 1`] = `
+exports[`theme theme settings should match snapshot 1`] = `
 Object {
   "palette": Object {
     "primary": Object {
