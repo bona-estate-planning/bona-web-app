@@ -3,13 +3,22 @@
 exports[`<FormWizard  /> should match snapshot 1`] = `
 <form>
   <div
-    class="buttons"
+    class="makeStyles-buttons-1"
   >
     <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-2 MuiButton-containedPrimary"
       data-testid="wizard-next"
+      tabindex="0"
       type="submit"
     >
-      Next »
+      <span
+        class="MuiButton-label"
+      >
+        Next
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
     </button>
   </div>
 </form>
