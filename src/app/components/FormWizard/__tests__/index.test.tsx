@@ -31,11 +31,8 @@ describe('<FormWizard  />', () => {
       </FormWizard>,
     );
 
-    const nextButton = screen.getByTestId('wizard-next');
-    userEvent.click(nextButton);
-
-    const previousButton = queryByTestId('wizard-previous');
-    expect(previousButton).toHaveTextContent('Foo');
+    userEvent.click(screen.getByTestId('wizard-next'));
+    expect(queryByTestId('wizard-previous')).toHaveTextContent('Foo');
   });
 
   it('should show previous button if past the first child page', () => {
@@ -46,17 +43,16 @@ describe('<FormWizard  />', () => {
       </FormWizard>,
     );
 
-    const previousButton = queryByTestId('wizard-previous');
-    expect(previousButton).not.toBeInTheDocument();
+    const getPreviousButton = () => queryByTestId('wizard-previous');
+    expect(getPreviousButton()).not.toBeInTheDocument();
 
-    const nextButton = screen.getByTestId('wizard-next');
-    userEvent.click(nextButton);
+    userEvent.click(screen.getByTestId('wizard-next'));
 
-    expect(previousButton).not.toBeInTheDocument();
+    expect(getPreviousButton()).toBeVisible();
   });
 
   it('should show next button custom text', () => {
-    render(
+    const { queryByTestId } = render(
       <FormWizard initialValues={mockValues} onSubmit={mockHandleSubmit}>
         <FormWizardPage validate={mockValidate} />
         <FormWizardPage validate={mockValidate} nextButtonText="Foo" />
@@ -64,10 +60,12 @@ describe('<FormWizard  />', () => {
       </FormWizard>,
     );
 
-    const nextButton = screen.getByTestId('wizard-next');
-    expect(nextButton).toHaveTextContent('Next'); // Default text
-    userEvent.click(nextButton);
-    expect(nextButton).toHaveTextContent('Foo'); // Custom text
+    const getNextButton = () => queryByTestId('wizard-next');
+    expect(getNextButton()).toHaveTextContent('Next'); // Default text
+
+    userEvent.click(screen.getByTestId('wizard-next'));
+
+    expect(getNextButton()).toHaveTextContent('Foo'); // Custom text
   });
 
   it('should show next button if not on the last page', () => {
@@ -77,12 +75,12 @@ describe('<FormWizard  />', () => {
         <FormWizardPage validate={mockValidate} />
       </FormWizard>,
     );
-    expect(queryByTestId('wizard-next')).toBeVisible();
+    const getNextButton = () => queryByTestId('wizard-next');
+    expect(getNextButton()).toBeVisible();
 
-    const nextButton = screen.getByTestId('wizard-next');
-    userEvent.click(nextButton);
+    userEvent.click(screen.getByTestId('wizard-next'));
 
-    expect(queryByTestId('wizard-next')).not.toBeInTheDocument();
+    expect(getNextButton()).not.toBeInTheDocument();
   });
 
   it('should show submit button if on the last page', () => {
@@ -93,13 +91,12 @@ describe('<FormWizard  />', () => {
       </FormWizard>,
     );
 
-    const submitButton = queryByTestId('wizard-submit');
-    expect(submitButton).not.toBeInTheDocument();
+    const getSubmitButton = () => queryByTestId('wizard-submit');
+    expect(getSubmitButton()).not.toBeInTheDocument();
 
-    const nextButton = screen.getByTestId('wizard-next');
-    userEvent.click(nextButton);
+    userEvent.click(screen.getByTestId('wizard-next'));
 
-    expect(submitButton).toBeVisible();
+    expect(getSubmitButton()).toBeVisible();
   });
 
   it('should be able to change pages', () => {
@@ -116,13 +113,11 @@ describe('<FormWizard  />', () => {
 
     expect(queryByText('Page 1')).toBeVisible();
 
-    const nextButton = screen.getByTestId('wizard-next');
-    userEvent.click(nextButton);
+    userEvent.click(screen.getByTestId('wizard-next'));
 
     expect(queryByText('Page 2')).toBeVisible();
 
-    const previousButton = screen.getByTestId('wizard-previous');
-    userEvent.click(previousButton);
+    userEvent.click(screen.getByTestId('wizard-previous'));
 
     expect(queryByText('Page 1')).toBeVisible();
   });
