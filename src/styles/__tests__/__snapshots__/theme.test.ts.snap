@@ -10,5 +10,8 @@ Object {
       "main": "#2d9cdb",
     },
   },
+  "shape": Object {
+    "borderRadius": 8,
+  },
 }
 `;
