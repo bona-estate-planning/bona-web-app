@@ -1,17 +1,15 @@
-import { Typography } from '@material-ui/core';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-// import TextField from '@material-ui/core/TextField';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { FormWizard } from 'app/components/FormWizard';
 import { FormWizardPage } from 'app/components/FormWizard/FormWizardPage';
 import { TopNav } from 'app/components/TopNav';
-import React from 'react';
-import { Field } from 'react-final-form';
-import { Helmet } from 'react-helmet-async';
 import { PDFDocument } from 'pdf-lib';
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { FormWizardPage1 } from './FormWizardPage1';
+import { FormWizardPage2 } from './FormWizardPage2';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -72,8 +70,6 @@ const onSubmit = async values => {
 //   />
 // );
 
-const required = value => (value ? undefined : 'Required');
-
 const useStyles = makeStyles(theme => ({
   containerRoot: {
     flexGrow: 1,
@@ -86,9 +82,6 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('md')]: {
       padding: '50px 70px',
     },
-  },
-  page2: {
-    textAlign: 'center',
   },
 }));
 
@@ -116,58 +109,11 @@ export function HomePage() {
               initialValues={{ userInput: 'Test' }}
               onSubmit={onSubmit}
             >
-              <FormWizardPage
-                validate={() => undefined}
-                nextButtonText="Start my journey!"
-              >
-                <Box
-                  component="svg"
-                  css={{ display: 'block', height: 120, width: 120 }}
-                  mx="auto"
-                  mb={isMd ? 4 : 3}
-                >
-                  <circle cx="60" cy="60" r="60" fill="#F3F3F3" />
-                </Box>
-                <Box mb={isMd ? 4 : 3}>
-                  <Typography component="h2" variant="h5">
-                    Let’s start on your guardianship journey!
-                  </Typography>
-                </Box>
-                <Box mb={isMd ? 4 : 3}>
-                  <Typography variant="body1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </Typography>
-                </Box>
-                <Box mb={isMd ? 4 : 8}>
-                  <Typography variant="body1">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </Typography>
-                </Box>
+              <FormWizardPage nextButtonText="Start my Journey!">
+                <FormWizardPage1 />
               </FormWizardPage>
-              <FormWizardPage
-                validate={() => undefined}
-                submitButtonText="Submit"
-              >
-                <Box className={classes.page2} mb={4}>
-                  <Box mb={isMd ? 4 : 3}>
-                    <Typography component="h2" variant="h5">
-                      Question one is lorem ipsum dolor ipsum?
-                    </Typography>
-                  </Box>
-                  <Field
-                    name="userInput"
-                    component="input"
-                    type="text"
-                    label="User Input"
-                    validate={required}
-                  />
-                </Box>
+              <FormWizardPage submitButtonText="Submit">
+                <FormWizardPage2 />
               </FormWizardPage>
             </FormWizard>
           </Paper>

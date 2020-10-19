@@ -11,9 +11,9 @@ export interface Props {
   validate: (
     Object,
   ) => ValidationErrors | Promise<ValidationErrors> | undefined;
-  previousButtonText?: string;
-  nextButtonText?: string;
-  submitButtonText?: string;
+  previousButtonText?: ReactNode;
+  nextButtonText?: ReactNode;
+  submitButtonText?: ReactNode;
 }
 
 export const FormWizardPage = ({ children }: Props) => {
@@ -21,6 +21,7 @@ export const FormWizardPage = ({ children }: Props) => {
 };
 
 FormWizardPage.defaultProps = {
+  validate: () => undefined,
   nextButtonText: 'Next',
   submitButtonText: 'Submit',
 };
