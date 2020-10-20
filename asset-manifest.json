@@ -1,21 +1,21 @@
 {
   "files": {
     "main.js": "./static/js/main.b7f13bcf.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.e61b8eef.js",
+    "runtime-main.js": "./static/js/runtime-main.ab6af225.js",
     "static/css/2.96514f25.chunk.css": "./static/css/2.96514f25.chunk.css",
     "static/js/2.81a90e9f.chunk.js": "./static/js/2.81a90e9f.chunk.js",
     "static/js/3.3c74b1d2.chunk.js": "./static/js/3.3c74b1d2.chunk.js",
     "static/js/4.4c9e8351.chunk.js": "./static/js/4.4c9e8351.chunk.js",
-    "static/js/5.4de1d2f7.chunk.js": "./static/js/5.4de1d2f7.chunk.js",
+    "static/js/5.08dc588d.chunk.js": "./static/js/5.08dc588d.chunk.js",
     "index.html": "./index.html",
-    "precache-manifest.df39c80df00b0b3849eec450b5d8c512.js": "./precache-manifest.df39c80df00b0b3849eec450b5d8c512.js",
+    "precache-manifest.2d437a3f3714fe30ace44f4737809c12.js": "./precache-manifest.2d437a3f3714fe30ace44f4737809c12.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.81a90e9f.chunk.js.LICENSE.txt": "./static/js/2.81a90e9f.chunk.js.LICENSE.txt",
     "static/js/3.3c74b1d2.chunk.js.LICENSE.txt": "./static/js/3.3c74b1d2.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.e61b8eef.js",
+    "static/js/runtime-main.ab6af225.js",
     "static/css/2.96514f25.chunk.css",
     "static/js/2.81a90e9f.chunk.js",
     "static/js/main.b7f13bcf.chunk.js"
