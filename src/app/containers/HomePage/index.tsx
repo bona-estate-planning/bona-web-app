@@ -12,6 +12,7 @@ import { FormWizardPage1 } from './FormWizardPage1';
 import { FormWizardPage2 } from './FormWizardPage2';
 import { FormWizardPage3 } from './FormWizardPage3';
 import { FormWizardPage4 } from './FormWizardPage4';
+import { FormWizardPage5 } from './FormWizardPage5';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -122,6 +123,9 @@ export function HomePage() {
               </FormWizardPage>
               <FormWizardPage>
                 <FormWizardPage4 />
+              </FormWizardPage>
+              <FormWizardPage>
+                <FormWizardPage5 />
               </FormWizardPage>
             </FormWizard>
           </Paper>
