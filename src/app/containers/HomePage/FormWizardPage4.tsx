@@ -9,7 +9,7 @@ export const FormWizardPage4 = () => (
     <Box mb={4}>
       <FormWizardPageTitle>Center aligned question?</FormWizardPageTitle>
       <Checkboxes
-        name="radioInput"
+        name="checkboxInput"
         data={[
           { label: 'Short phrase', value: 'item1' },
           { label: 'Really long sentence', value: 'item2' },
