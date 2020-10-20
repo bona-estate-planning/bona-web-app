@@ -2,7 +2,7 @@ import Box from '@material-ui/core/Box';
 import { FormWizardPage } from 'app/components/FormWizard/FormWizardPage';
 import { FormWizardPageTitle } from 'app/components/FormWizardPageTitle';
 import React from 'react';
-import { Field } from 'react-final-form';
+import { TextField } from 'mui-rff';
 
 export const FormWizardPage2 = () => (
   <FormWizardPage validate={() => undefined} submitButtonText="Submit">
@@ -10,12 +10,7 @@ export const FormWizardPage2 = () => (
       <FormWizardPageTitle>
         Question one is lorem ipsum dolor ipsum?
       </FormWizardPageTitle>
-      <Field
-        name="userInput"
-        component="input"
-        type="text"
-        label="User Input"
-      />
+      <TextField name="textInput" label="User Input" variant="outlined" />
     </Box>
   </FormWizardPage>
 );

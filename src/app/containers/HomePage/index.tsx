@@ -10,6 +10,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FormWizardPage1 } from './FormWizardPage1';
 import { FormWizardPage2 } from './FormWizardPage2';
+import { FormWizardPage3 } from './FormWizardPage3';
+import { FormWizardPage4 } from './FormWizardPage4';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -112,8 +114,14 @@ export function HomePage() {
               <FormWizardPage nextButtonText="Start my Journey!">
                 <FormWizardPage1 />
               </FormWizardPage>
-              <FormWizardPage submitButtonText="Submit">
+              <FormWizardPage>
                 <FormWizardPage2 />
+              </FormWizardPage>
+              <FormWizardPage>
+                <FormWizardPage3 />
+              </FormWizardPage>
+              <FormWizardPage>
+                <FormWizardPage4 />
               </FormWizardPage>
             </FormWizard>
           </Paper>
