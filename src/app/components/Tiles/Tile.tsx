@@ -20,6 +20,9 @@ const useStyles = makeStyles(theme => ({
       : theme.palette.grey[100],
 
     marginRight: theme.spacing(4),
+    '&:hover': {
+      cursor: 'pointer',
+    },
     '&:last-child': {
       marginRight: 0,
     },
