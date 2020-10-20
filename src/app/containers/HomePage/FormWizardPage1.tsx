@@ -23,7 +23,7 @@ export const FormWizardPage1 = () => {
         <circle cx="60" cy="60" r="60" fill="#F3F3F3" />
       </Box>
       <FormWizardPageTitle align="left">
-        Let’s start on your guardianship journey!
+        Foobar
       </FormWizardPageTitle>
       <FormWizardPageBody>
         dolor sit amet, consectetur adipiscing elit, sed do eiu dunt ut labore
