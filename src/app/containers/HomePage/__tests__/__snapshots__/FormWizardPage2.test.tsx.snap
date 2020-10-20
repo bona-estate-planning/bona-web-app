@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormWizardPage2  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root MuiBox-root-1"
+>
+  <div
+    class="MuiBox-root MuiBox-root-4"
+  >
+    <h2
+      class="MuiTypography-root makeStyles-root-2 makeStyles-root-3 MuiTypography-h5"
+    >
+      Question one is lorem ipsum dolor ipsum?
+    </h2>
+  </div>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+      data-shrink="false"
+    >
+      User Input
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        name="textInput"
+        type="text"
+        value=""
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-7"
+        >
+          <span>
+            User Input
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;

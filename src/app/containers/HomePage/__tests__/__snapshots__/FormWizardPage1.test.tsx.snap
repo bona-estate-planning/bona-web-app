@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormWizardPage1  /> should match snapshot 1`] = `
+<svg
+  class="MuiBox-root MuiBox-root-1"
+>
+  <circle
+    cx="60"
+    cy="60"
+    fill="#F3F3F3"
+    r="60"
+  />
+</svg>
+`;

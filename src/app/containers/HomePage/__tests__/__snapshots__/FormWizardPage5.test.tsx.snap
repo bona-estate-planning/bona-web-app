@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormWizardPage5  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root MuiBox-root-1"
+>
+  <div
+    class="MuiBox-root MuiBox-root-4"
+  >
+    <h2
+      class="MuiTypography-root makeStyles-root-2 makeStyles-root-3 MuiTypography-h5"
+    >
+      Center aligned question?
+    </h2>
+  </div>
+  <div
+    class="MuiFormControl-root makeStyles-formControl-5"
+  >
+    <div
+      class="MuiFormGroup-root makeStyles-radioGroup-6"
+      role="radiogroup"
+    >
+      <div
+        class="MuiPaper-root makeStyles-root-7 makeStyles-root-10 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-8 MuiTypography-subtitle1"
+        >
+          Yes
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-sublabel-9 MuiTypography-subtitle2"
+        >
+          Lorem ipsum dolor. Ipsum dolor lorem.
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root makeStyles-root-7 makeStyles-root-11 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <p
+          class="MuiTypography-root makeStyles-label-8 MuiTypography-subtitle1"
+        >
+          No
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-sublabel-9 MuiTypography-subtitle2"
+        >
+          Lorem ipsum dolor. Ipsum dolor lorem.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
