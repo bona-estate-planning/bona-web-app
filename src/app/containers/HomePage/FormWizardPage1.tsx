@@ -26,8 +26,8 @@ export const FormWizardPage1 = () => {
         Let’s start on your guardianship journey!
       </FormWizardPageTitle>
       <FormWizardPageBody>
-        Test dolor sit amet, consectetur adipiscing elit, sed do eiu dunt ut labore
-        et dolore magna aliqua. Ut enim ad minim v d exercitation ullamco
+        Test dolor sit amet, consectetur adipiscing elit, sed do eiu dunt ut
+        labore et dolore magna aliqua. Ut enim ad minim v d exercitation ullamco
         laboris nisi ut aliquip ex ea commodo consequat.
       </FormWizardPageBody>
       <FormWizardPageBody>
