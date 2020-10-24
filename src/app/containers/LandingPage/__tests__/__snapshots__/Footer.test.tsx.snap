@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer  /> should match snapshot 1`] = `
+<footer
+  class="MuiGrid-root makeStyles-footer-1 makeStyles-footer-5 MuiGrid-container"
+>
+  <div
+    class="MuiGrid-root makeStyles-info-3 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-true"
+  >
+    <p
+      class="MuiTypography-root makeStyles-sectionHeading-2 MuiTypography-body1"
+    >
+      Estately
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      Estately is acting as the agent of Estately Company in selling esate documentation.
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      Further information is available upon request.
+    </p>
+  </div>
+  <div
+    class="MuiGrid-root makeStyles-contact-4 makeStyles-contact-6 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto"
+  >
+    <p
+      class="MuiTypography-root makeStyles-sectionHeading-2 MuiTypography-caption"
+    >
+      Contact Us
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      contact@estately.com
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      (206) 555-5555
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      1455 Market St # 400
+    </p>
+  </div>
+</footer>
+`;

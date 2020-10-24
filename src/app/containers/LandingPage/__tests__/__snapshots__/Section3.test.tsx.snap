@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section3  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root MuiBox-root-11 makeStyles-section-1 makeStyles-section-10"
+>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <h3
+      class="MuiTypography-root makeStyles-headline-2 MuiTypography-body1"
+    >
+      We got you covered
+    </h3>
+    <p
+      class="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1"
+    >
+      Whatever your trust concerns are we have you covered. Let us navigate the complex waters of estate planning for you.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-12 makeStyles-plans-4"
+  >
+    <div
+      class="MuiPaper-root makeStyles-plan-5 MuiPaper-elevation3 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root makeStyles-planTitle-6 MuiTypography-body1"
+      >
+        Guardianship
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planSubtitle-7 MuiTypography-subtitle1"
+      >
+        Ensure your family is cared for with all life throws at you
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planPrice-8 MuiTypography-body1"
+      >
+        $
+        50
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-planButton-9 MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Learn More
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-plan-5 MuiPaper-elevation3 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root makeStyles-planTitle-6 MuiTypography-body1"
+      >
+        Advanced Directive
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planSubtitle-7 MuiTypography-subtitle1"
+      >
+        Sort out complex medical treatment details
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planPrice-8 MuiTypography-body1"
+      >
+        $
+        50
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-planButton-9 MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Learn More
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-plan-5 MuiPaper-elevation3 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root makeStyles-planTitle-6 MuiTypography-body1"
+      >
+        HIPAA Authorization
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planSubtitle-7 MuiTypography-subtitle1"
+      >
+        Decide the access to your medical information
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planPrice-8 MuiTypography-body1"
+      >
+        $
+        50
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-planButton-9 MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Learn More
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-plan-5 MuiPaper-elevation3 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root makeStyles-planTitle-6 MuiTypography-body1"
+      >
+        Trust & Will
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planSubtitle-7 MuiTypography-subtitle1"
+      >
+        Protect and transfer your most important assets
+      </p>
+      <p
+        class="MuiTypography-root makeStyles-planPrice-8 MuiTypography-body1"
+      >
+        $
+        50
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-planButton-9 MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Learn More
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

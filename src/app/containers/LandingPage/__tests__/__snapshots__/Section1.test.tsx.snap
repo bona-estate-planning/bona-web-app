@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section1  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root MuiBox-root-8 makeStyles-section-1 makeStyles-section-6"
+>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <h2
+      class="MuiTypography-root makeStyles-headline-2 MuiTypography-body1"
+    >
+      Estately
+    </h2>
+    <p
+      class="MuiTypography-root makeStyles-subtitle-3 MuiTypography-h5"
+    >
+      Simple estate planning for everyone.
+    </p>
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-4 MuiButton-containedPrimary"
+      href="/wizard"
+      role="button"
+      tabindex="0"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Start a plan
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-9 makeStyles-imageBox-5 makeStyles-imageBox-7"
+  />
+</div>
+`;

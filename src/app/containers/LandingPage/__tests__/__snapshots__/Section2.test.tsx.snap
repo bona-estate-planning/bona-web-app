@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section2  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root MuiBox-root-7 makeStyles-section-1 makeStyles-section-6"
+>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <h3
+      class="MuiTypography-root makeStyles-headline-2 MuiTypography-body1"
+    >
+      How it works
+    </h3>
+    <p
+      class="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1"
+    >
+      Description of what the value prop is. The description should fit in here somewhere. Make it sound really nice.
+    </p>
+    <div
+      class="MuiBox-root MuiBox-root-8 makeStyles-placeholderImages-4"
+    >
+      <svg
+        class="makeStyles-placeholderImage-5"
+      >
+        placeholder.svg
+      </svg>
+      <svg
+        class="makeStyles-placeholderImage-5"
+      >
+        placeholder.svg
+      </svg>
+      <svg
+        class="makeStyles-placeholderImage-5"
+      >
+        placeholder.svg
+      </svg>
+      <svg
+        class="makeStyles-placeholderImage-5"
+      >
+        placeholder.svg
+      </svg>
+    </div>
+  </div>
+</div>
+`;
