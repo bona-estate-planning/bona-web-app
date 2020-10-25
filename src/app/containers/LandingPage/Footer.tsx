@@ -47,11 +47,10 @@ export const Footer = memo((props: Props) => {
           Estately
         </Typography>
         <Typography component="p" variant="caption">
-          Estately is acting as the agent of Estately Company in selling esate
-          documentation.
+          Bona is an online service providing legal forms and information.
         </Typography>
         <Typography component="p" variant="caption">
-          Further information is available upon request.
+          Bona is not a law firm or a substitute for a lawyer’s advice about complex estate planning issues.
         </Typography>
       </Grid>
       <Grid item xs={12} md="auto" className={classes.contact}>
