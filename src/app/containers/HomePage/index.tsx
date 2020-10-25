@@ -8,11 +8,11 @@ import { TopNav } from 'app/components/TopNav';
 import { PDFDocument } from 'pdf-lib';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { FormWizardPage1 } from './FormWizardPage1';
-import { FormWizardPage2 } from './FormWizardPage2';
-import { FormWizardPage3 } from './FormWizardPage3';
-import { FormWizardPage4 } from './FormWizardPage4';
+import { FewPiecesOfInformation } from './FewPiecesOfInformation';
 import { FormWizardPage5 } from './FormWizardPage5';
+import { ParentDOB } from './ParentDOB';
+import { ParentName } from './ParentName';
+import { WereHereToHelp } from './WereHereToHelp';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -113,16 +113,16 @@ export function HomePage() {
               onSubmit={onSubmit}
             >
               <FormWizardPage nextButtonText="Start my Journey!">
-                <FormWizardPage1 />
+                <WereHereToHelp />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage2 />
+                <FewPiecesOfInformation />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage3 />
+                <ParentName />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage4 />
+                <ParentDOB />
               </FormWizardPage>
               <FormWizardPage>
                 <FormWizardPage5 />

@@ -15,12 +15,12 @@ exports[`<Footer  /> should match snapshot 1`] = `
     <p
       class="MuiTypography-root MuiTypography-caption"
     >
-      Estately is acting as the agent of Estately Company in selling esate documentation.
+      Bona is an online service providing legal forms and information.
     </p>
     <p
       class="MuiTypography-root MuiTypography-caption"
     >
-      Further information is available upon request.
+      Bona is not a law firm or a substitute for a lawyer’s advice about complex estate planning issues.
     </p>
   </div>
   <div
