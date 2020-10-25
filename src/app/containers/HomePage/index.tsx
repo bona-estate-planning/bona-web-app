@@ -113,16 +113,16 @@ export function HomePage() {
               onSubmit={onSubmit}
             >
               <FormWizardPage nextButtonText="Start my Journey!">
-                <FormWizardPage1 />
+                <WereHereToHelp />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage2 />
+                <FewPiecesOfInformation />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage3 />
+                <ParentName />
               </FormWizardPage>
               <FormWizardPage>
-                <FormWizardPage4 />
+                <ParentDOB />
               </FormWizardPage>
               <FormWizardPage>
                 <FormWizardPage5 />
