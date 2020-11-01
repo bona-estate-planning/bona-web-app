@@ -22,4 +22,5 @@ module.exports = {
       rules: { 'prettier/prettier': ['warn', prettierOptions] },
     },
   ],
+  ignorePatterns: ['**/__generated__/*'],
 };
